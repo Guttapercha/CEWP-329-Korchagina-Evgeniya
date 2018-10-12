@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add this or media wuery won't work -->
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	   <div id="d2">
+		<nav>
+		  <a href="index.html">Home</a>
+		  <a href="moscow.html">Moscow</a>
+		  <a href="stpetersburg.html"> St-Petersburg</a>
+		  <a href="others.html">Others</a>
+		  <a href="survey.html">Survey</a>	  
+		</nav>	
+		<h1>Lets rate Russian metro!</h1>		   
+	  </div>
+  <section id="s3">
+      <form action="MAILTO:chitosan@inbox.ru" method="post" enctype="text/plain" validate>
+
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" placeholder="Moscow" required>
+
+        <label for="station">Station</label>
+      	<input type="text" id="station" name="station" placeholder="Arbatskaya" required>
+
+        <label for="rating">Rating (from * to *****)</label>
+        <input type="text" id="rating" name="rating" placeholder="*****" required>
+
+        <label for="tarea">Comments</label>
+        <textarea id="b1" name="comment" placeholder="please leave us a comment"></textarea>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+
+      </form>
+    </section>
+	  
+  </body>
+</html>

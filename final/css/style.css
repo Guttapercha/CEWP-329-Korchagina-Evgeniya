@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Artifika|Cambay|Faster+One|Federo|Frijole|Gabriela|Mate');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400i|Kaushan+Script|Lobster|Neuton:400i|Spectral:500i');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  background-color: beige;
+  box-sizing: border-box;
+	width:100%;
+}
+div {
+    overflow: hidden;
+	background: url(../images/bg_moscow.jpg) fixed center center;
+	background-size: cover;
+    width: 90%;
+    height: 60%;
+    position: relative;
+	margin: 0 auto;
+		}
+#d1{
+	background: url(../images/bg_moscow1.jpg) fixed center center;
+	background-size: cover;
+}
+#d3{
+	background: url(../images/bg_piter.jpg) fixed center center;
+	background-size: cover;
+}
+#d4{
+	background: url(../images/bg_kazan.jpg) fixed center center;
+	background-size: cover;
+}
+
+div#d2{
+	height: 40%;
+	background: url(../images/bg_moscow2.jpg)  center center;
+	background-size: cover;
+}
+header {
+    position: relative;
+	margin-top: 25vh; 
+	left:0px;
+	animation: slider 2s;
+	overflow: hidden;
+}
+
+header h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  color: firebrick;
+  text-transform: capitalize;
+  font-weight: normal;   
+  font-family: 'Faster One', cursive;
+}
+
+header img {
+  	float:left;
+	padding-top: 5px;
+	height: 50px;
+}
+
+
+@keyframes slider {
+  from {opacity: 0; left:2000px;}
+  to {opacity: 1; left:0;}
+}
+
+nav {
+position: absolute;
+text-align: center;
+z-index: 999;
+height: 40px;
+margin: 5px 15px;
+width: 100%;
+max-width: 600px;
+font-family: 'Gabriela', serif;	
+display: flex;
+flex-flow: wrap;
+align-items: center;
+justify-content: center;	
+box-sizing: border-box;
+}
+
+nav a:link {
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  height: 25px;
+  font-size: 16px;
+  width: 105px;
+  display: inline-block;
+  color: #fff;
+  background: #333;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav a:visited {
+color: #eee;
+
+}
+
+nav a:hover {
+  background: crimson;
+}
+
+
+h2 {
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+  color: dimgrey;
+  text-transform: capitalize;
+  font-weight: normal;	
+  line-height: 25px;
+  font-family: 'Frijole', cursive;
+}
+.c1{
+	text-align: left;
+}
+a:link {
+  font-size: 24px;
+  color:#036920;	
+  text-transform:  capitalize;
+  margin: 10px 10px 10px 0;
+  text-decoration: underline;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+h3 {
+	font-family: 'Federo', sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 24px;
+    margin-top: 3vh;
+}
+
+section#s1 {
+    width: 90%;
+    position: relative;
+	font-family: 'Cambay', sans-serif;
+	background-color: white;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px;
+	z-index: 999;
+	}
+
+section#s1 article {
+	box-sizing: border-box;
+	padding: 1%;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	text-align: justify;
+	width: 100%;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid black;
+}
+
+figure{
+    margin: 10px 5px;
+}
+
+figure img{
+  padding: 10px 0;
+  width: 100%;
+	
+}
+
+figure figcaption {
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+   margin-top: -10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+span {
+    font-size:20px;
+    font-weight:bold;
+    }
+
+video {
+  padding: 10px 0;
+  width: 100%;
+}
+
+/*second page*/
+
+section#s2 {
+	width: 90%;
+    position: relative;
+	font-family: 'Trirong', serif;
+	background-color: white;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: space-between;
+	z-index: 0;  }
+
+section#s2 figure {
+	width: 25vw;
+	padding: 0;
+	z-index: 0;
+	position: relative;	
+}
+
+section#s2 figure img {
+	width: 25vmax;
+	height: 18vmax;
+	margin: 0;
+}
+
+section#s2 figure figcaption {
+	text-shadow: 0 0 20px rgba(0,0,0,0.75);
+	position: absolute;
+	min-width: 100%;
+	background: rgba(0,0,0,0.75);
+    color: blanchedalmond;
+  	position: absolute;
+  	bottom: 16px;
+	font-size: 18px;
+	line-height: 20px;
+	z-index: -10;
+	transition: all .1s;
+}
+
+section#s2 figure:hover figcaption{
+  z-index: 1;
+}
+
+section#s2 figure:hover img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+  opacity: 0.8;
+}
+
+
+
+/*survey page*/
+
+div#d2 h1{
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  color: whitesmoke;
+  margin-top: 20vh;
+}
+
+section#s3 {
+	width: 90%;
+    position: relative;
+	background-color: white;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px;
+	z-index: 0;  
+}
+
+form {
+  width:70%;
+ max-width:600px;
+  margin: auto;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+	border:none;
+    border-bottom: 1px dotted #000;
+    font-size: 20px;
+    color:#000;
+    background: #eee;
+    transition:all .3s;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background: #eee;
+    color:#f00;
+	outline: none;
+	border-bottom: 1px dotted #f00;
+}
+
+input[type=submit], input[type=reset] {
+    display: inline-block;
+    width: 100px;
+    background-color:firebrick;
+    color: white;
+    padding: 5px 5px;
+    margin: 5px 5px 5px 5px;
+	outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    transition:all .3s;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color:#777;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 4px;
+	border: none;
+    border-bottom: 1px dotted #000;
+    background-color: #fff;
+    font-size:16px;
+    resize: none;
+    color:#333;
+	transition:all .3s;
+	
+}
+textarea#b1{
+	border: none;
+	border-style: dashed;
+	margin-bottom: 5px;
+}
+textarea:focus {
+    background: #111;
+    color:#fff;
+}
+
+label {
+    font-family: 'Passion One', cursive;
+    font-size: 16px;
+	font-weight: 700;
+}
+
+
+/*Tablet will inherit from desktop*/
+
+@media all and (max-width:600px) {
+	width:100%;
+
+header h1 {
+  font-size: 45px;
+  min-width: 300px;
+}
+
+header img {
+display: none;
+
+}
+
+nav {
+height: 35px;
+min-width: 90%;
+width: 100%;
+}
+
+nav a:link {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  height: 18px;
+  font-size: 14px;
+  width: 95px;
+	}
+	
+h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+	
+h3 {
+	font-size: 18px;
+	line-height: 20px;
+    margin-top: 3vh;
+}
+
+section#s1 article {
+	column-count: 2;
+}
+
+figure figcaption {
+  font-size: 14px;
+  line-height: 16px;
+   margin-top: -15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+}
+	
+/*	second page*/
+
+
+section#s2 figure {
+	width: 33vw;
+}
+
+section#s2 figure img {
+	width: 33vw;
+	height: 22vw;
+}
+
+section#s2 figure figcaption {
+	font-size: 15px;
+	line-height: 17px;
+}	
+	
+	input[type=submit], input[type=reset] {
+    font-size: 16px;
+	width: 20vw;
+	margin: auto;
+}
+}
+
+/*Phone will inherit from tablet*/
+
+@media all and (max-width:365px) {
+	width:100%;
+
+header h1 {
+  font-size: 30px;
+  min-width: 200px;
+}
+
+nav {
+height: 35px;
+width: 100%;
+}
+
+nav a:link {
+  padding: 1px;
+  margin: 1px;
+  height: 15px;
+  font-size: 12px;
+  width: 82px;
+	}
+	
+h2 {
+  font-size: 16px;
+  line-height: 18px;
+}
+	
+h3 {
+	font-size: 16px;
+	line-height: 18px;
+    margin-top: 3vh;
+}
+
+section#s1 article {
+	column-count: 1;
+}
+
+figure figcaption {
+  font-size: 13px;
+  line-height: 15px;
+   margin-top: -15px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 16px;
+}
+	
+/*	second page*/
+section#s2 figure {
+	padding-bottom: 5px;
+	width: 70vw;
+	margin: 5px 0;
+}
+
+section#s2 figure img {
+	width: 70vw;
+	height: 55vw;
+}
+
+section#s2 figure figcaption {
+	font-size: 13px;
+	line-height: 15px;
+	bottom: 24px;
+}	
+	
+/*	FORM */
+	div#d2 h1 {
+		font-size: 10vw;	
+	}
+	
+form {
+  width:90%;
+ max-width:300px;
+  margin: auto;
+}
+
+input[type=text], input[type=email] {
+	font-size: 16px;
+}
+	
+input[type=submit], input[type=reset] {
+    font-size: 16px;
+	width: 25vw;
+}
+
+textarea {
+    height: 100px;  
+    font-size:14px;
+}
+textarea:focus {
+    background: #111;
+    color:#fff;
+}
+
+label {
+    font-family: 'Passion One', cursive;
+    font-size: 14px;
+	font-weight: 700;
+	}
+	
+}
+
+
+

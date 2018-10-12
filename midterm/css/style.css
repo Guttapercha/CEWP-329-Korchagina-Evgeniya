@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500|Didact+Gothic|Limelight|Philosopher:400,700|Poiret+One|Reem+Kufi|Trirong:400,800|Unna:400i');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+section {
+    /*border: 1px solid red;*/
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+	font-family: 'Trirong', serif;
+	background-color: beige;
+  }
+
+section h3 {
+	margin: 10px 0;
+	font-weight: 800;
+	font-size: 28px;
+  }
+
+html, body {
+  height: 100%;
+	background-color: beige;
+}
+/*NAV INFO HERE*/
+
+nav {
+top: 0;
+background-color: darkgoldenrod;
+text-align: center;
+position: fixed;
+z-index: 999;
+height: 50px;
+width: 100%;
+min-width: 500px;
+font-family:  'Reem Kufi', sans-serif;
+font-weight: 500px;
+}
+
+nav a:link {
+  margin: 8px;
+  padding-top: 5px;
+  vertical-align: middle;
+  height: 30px;
+  width: 100px;
+  display: inline-block;
+  color: #fff;
+  background: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+nav a:visited {
+color: #eee;
+}
+
+nav a:hover {
+  background: crimson;
+}
+
+
+#ht1{
+  background: url(../images/kamchatka.jpg) no-repeat fixed top center;
+  background-size: cover;
+  min-height: 75%;
+  font-family: 'Didact Gothic', sans-serif;
+display: flex;
+
+}
+
+
+section#ht1 h1{
+	left: 20%;
+	font-size: 6.5vw;
+	line-height: 7vw;
+	padding-top: 0%;
+	padding-bottom: 15%;
+	margin:  auto;
+  	text-align: center;
+	font-family: 'Limelight', cursive;
+}
+
+section#ht1 h2{
+
+	font-size: 6.5vw;
+	line-height: 7vw;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-top:  15vw;
+	margin-left: 25%;
+	left: 30%;
+  text-align: center;
+	font-family: 'Limelight', cursive;
+	}
+
+section#ht1 article {
+	font-size: 3.2vw;
+	line-height: 4vw;
+	text-align: right;
+	margin-top: 80px;
+	padding-top: 0;
+	right:0;
+}
+
+section#ht1 header {
+  position: absolute;
+  background-color: #FFBD4C ;
+  font-family:  'Reem Kufi', sans-serif;
+  color: black;
+  width: 20vw;
+  margin-top: 50px;
+  min-height: 100%;
+  left: 0;
+  display: flex;
+
+}
+header img {
+	border: black solid 1px;
+	position: absolute;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+header article#a {
+	width: 100%;
+	font-size: 2.5vw;
+	line-height: 3vw;
+	text-align: center;
+	margin-top: 22vw;
+}
+
+header p {
+	width: 100%;
+	text-align: center;
+  	font-weight: 600;
+  	font-size: 2vw;
+	padding: 5px;
+	padding-bottom: 0;
+	}
+
+section#s1 h3 {
+	font-size: 28px;
+	line-height: 38px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+section#s1 article {
+	padding: 1%;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	position: absolute;
+	text-align: justify;
+	width: 90%;
+	position: absolute;
+	margin:30px 5%;
+	column-count: 2;
+	column-gap: 30px;
+	column-rule: 1px solid black;
+}
+
+figure{
+  margin: 10px 5px;
+}
+
+figure img{
+	padding: 10px 0;
+  width: 100%;
+}
+
+figure figcaption {
+  font-family: 'Unna', serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+
+}
+
+.quote {
+	font-family: 'Poiret One', cursive;
+	font-size: 3.8vw;
+	line-height: 4.5vw;
+	color: yellow;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	right: 0;
+	line-height: 4vw;
+}
+
+.info{
+	padding: 0;
+	margin: 0;
+	font-weight: 100;
+}
+
+section#ht1.bg1 {
+	  background: url(../images/ural_mountains.jpg) no-repeat fixed top center;
+	  background-size: cover;
+}
+
+section#ht1.bg2 {
+	  background: url(../images/altai_mountains.jpg) no-repeat fixed top center;
+	  background-size: cover;
+}
+
+section#ht1.bg3 {
+	  background: url(../images/caucasus_mountains.jpg) no-repeat fixed top center;
+	  background-size: cover;
+}
+
+section#s1 article.col3 {
+		column-count: 3;
+		column-gap: 30px;
+	    column-rule: 1px solid black;
+		padding: 20px 25px;
+}
+section#s1 article h3.gap0  {
+	padding-top: 0;
+	margin-top: 0;
+}
